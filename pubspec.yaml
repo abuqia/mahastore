@@ -1,0 +1,71 @@
+name: mahastore
+description: "A new Flutter project."
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+
+# ------------------------- PACKAGES -------------------------
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility Packages
+  
+  # Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.6
+
+  # State Management
+  get: ^4.6.5
+
+  # Product Specific
+
+
+
+# ------------------------- ./ PACKAGES END -------------------------
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+
+# ------------------------- LOCAL ASSETS -------------------------
+assets:
+  - assets/logos/
+  - assets/icons/brands/
+  - assets/images/
+
+# ------------------------- LOCAL FONTS -------------------------
+fonts:
+  - family: Poppins
+    fonts:
+      - assets: assets/fonts/Poppins-Light.ttf
+        weight: 300
+      - assets: assets/fonts/Poppins-Regular.ttf
+        weight: 400
+      - assets: assets/fonts/Poppins-Italic.ttf
+        style: italic
+      - assets: assets/fonts/Poppins-Medium.ttf
+        weight: 500
+      - assets: assets/fonts/Poppins-MediumItalic.ttf
+        weight: 500
+        style: italic
+      - assets: assets/fonts/Poppins-SemiBold.ttf
+        weight: 600
+      - assets: assets/fonts/Poppins-SemiBoldItalic.ttf
+        weight: 600
+        style: italic
+      - assets: assets/fonts/Poppins-Bold.ttf
+        weight: 800
+      - assets: assets/fonts/Poppins-BoldItalic.ttf
+        weight: 800
+        style: italic
