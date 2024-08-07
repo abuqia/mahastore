@@ -1,12 +1,11 @@
 name: mahastore
 description: "A new Flutter project."
 
-publish_to: 'none' 
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
   sdk: '>=3.4.3 <4.0.0'
-
 
 # ------------------------- PACKAGES -------------------------
 dependencies:
@@ -14,58 +13,59 @@ dependencies:
     sdk: flutter
 
   # Utility Packages
-  
+  http: ^1.2.2
+  intl: ^0.19.0
+  logger: ^2.4.0
+  url_launcher: ^6.3.0
+  flutter_native_splash: ^2.4.1
+  smooth_page_indicator: ^1.2.0+3
+
   # Icons
   iconsax: ^0.0.8
-  cupertino_icons: ^1.0.6
+  cupertino_icons: ^1.0.8
 
   # State Management
-  get: ^4.6.5
-
-  # Product Specific
-
-
+  get: ^4.6.6
+  get_storage: ^2.1.1
 
 # ------------------------- ./ PACKAGES END -------------------------
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  flutter_lints: ^3.0.0
+  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
 
+  # ------------------------- LOCAL ASSETS -------------------------
+  assets:
+    - assets/logos/
+    - assets/icons/brands/
+    - assets/images/on_boarding_images/
 
-# ------------------------- LOCAL ASSETS -------------------------
-assets:
-  - assets/logos/
-  - assets/icons/brands/
-  - assets/images/
-
-# ------------------------- LOCAL FONTS -------------------------
-fonts:
-  - family: Poppins
-    fonts:
-      - assets: assets/fonts/Poppins-Light.ttf
-        weight: 300
-      - assets: assets/fonts/Poppins-Regular.ttf
-        weight: 400
-      - assets: assets/fonts/Poppins-Italic.ttf
-        style: italic
-      - assets: assets/fonts/Poppins-Medium.ttf
-        weight: 500
-      - assets: assets/fonts/Poppins-MediumItalic.ttf
-        weight: 500
-        style: italic
-      - assets: assets/fonts/Poppins-SemiBold.ttf
-        weight: 600
-      - assets: assets/fonts/Poppins-SemiBoldItalic.ttf
-        weight: 600
-        style: italic
-      - assets: assets/fonts/Poppins-Bold.ttf
-        weight: 800
-      - assets: assets/fonts/Poppins-BoldItalic.ttf
-        weight: 800
-        style: italic
+  # ------------------------- LOCAL FONTS -------------------------
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-BoldItalic.ttf
+          weight: 800
+          style: italic
