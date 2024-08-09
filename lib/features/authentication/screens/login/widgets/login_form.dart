@@ -81,7 +81,7 @@ class LoginForm extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: OutlinedButton(
-              onPressed: () => Get.to(() => const SignuppScreen()),
+              onPressed: () => Get.to(() => const SignupScreen()),
               style: ElevatedButton.styleFrom(
                   side: BorderSide(
                       width: 1, color: dark ? MahaColors.white : MahaColors.primary)),
