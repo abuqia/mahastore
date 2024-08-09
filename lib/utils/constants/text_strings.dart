@@ -43,5 +43,6 @@ class MahaTexts {
   static const String changeYourPasswordTitle = "Password Reset Email Sent";
   static const String changeYourPasswordSubTitle = "Your account security is our priority! we've sent you a secure link to safely change your password and keep your account protected.";
   static const String confirmEmail = "";
+  static const String and = "&";
   
 }

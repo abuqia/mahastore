@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:mahastore/features/authentication/screens/signup/widgets/signup.dart';
 import 'package:mahastore/utils/constants/colors.dart';
 import 'package:mahastore/utils/constants/sizes.dart';
 import 'package:mahastore/utils/constants/text_strings.dart';
@@ -79,7 +81,7 @@ class LoginForm extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: OutlinedButton(
-              onPressed: () {},
+              onPressed: () => Get.to(() => const SignuppScreen()),
               style: ElevatedButton.styleFrom(
                   side: BorderSide(
                       width: 1, color: dark ? MahaColors.white : MahaColors.primary)),
