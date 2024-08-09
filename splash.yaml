@@ -1,18 +1,18 @@
 flutter_native_splash:
-  color: "#00C5AD"
-  color_dark: "#00C5AD"
+  color: "#BFD9E7"
+  color_dark: "#28536B"
   background_image: assets/images/splashscreen.png
-  image: assets/logos/icon.png
-  image_dark: assets/logos/icon.png
+  image: assets/logos/logo-color.png
+  image_dark: assets/logos/logo-white.png
   background_image_dark: assets/images/splashscreen.png
   #branding_dark: assets/dart_dark.png
 
   android_12:
-    color: "#00C5AD"
-    color_dark: "#00C5AD"
-    image: assets/logos/icon.png
-    image_dark: assets/logos/icon.png
-    icon_background_color: "#00C5AD"
-    icon_background_color_dark: "#00C5AD"
+    color: "#BFD9E7"
+    color_dark: "#28536B"
+    image: assets/logos/logo-color.png
+    image_dark: assets/logos/logo-white.png
+    icon_background_color: "#BFD9E7"
+    icon_background_color_dark: "#28536B"
 
   web: false
